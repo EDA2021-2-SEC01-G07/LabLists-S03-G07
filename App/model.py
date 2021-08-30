@@ -65,7 +65,7 @@ def newCatalog():
 
 def addBook(catalog, book):
     # Se adiciona el libro a la lista de libros
-    lt.addLast(catalog['books'], book)
+    lt.addLast(catalog['books'], book) 
     # Se obtienen los autores del libro
     authors = book['authors'].split(",")
     # Cada autor, se crea en la lista de libros del catalogo, y se
